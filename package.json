@@ -1,0 +1,22 @@
+{
+  "name": "hashpjw",
+  "version": "0.0.1",
+  "description": "hashpjw",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/you21979/node-hashpjw.git"
+  },
+  "keywords": [
+    "hash"
+  ],
+  "author": "Yuki Akiyama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/you21979/node-hashpjw/issues"
+  },
+  "homepage": "https://github.com/you21979/node-hashpjw#readme"
+}
