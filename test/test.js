@@ -9,6 +9,14 @@ describe('hashpjw', function() {
         var n = hashpjw("ABCDEFGHIJKLMN");
         assert(n === 178683902);
     });
+    it('simple_number', function() {
+        var n = hashpjw(0);
+        assert(n === 48);
+    });
+    it('simple_buffer', function() {
+        var n = hashpjw(new Buffer("ABCDEFGHIJKLMN"));
+        assert(n === 178683902);
+    });
     it('long', function() {
         var n = hashpjw("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz");
         assert(n === 53942586);
