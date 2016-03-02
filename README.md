@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/hashpjw.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/hashpjw)  
 [![Build Status](https://secure.travis-ci.org/you21979/node-hashpjw.png?branch=master)](https://travis-ci.org/you21979/node-hashpjw)
-[![Coverage Status](https://coveralls.io/repos/you21979/node-hashpjw/badge.png)](https://coveralls.io/r/you21979/node-hashpjw)
+[![Coverage Status](https://coveralls.io/repos/github/you21979/node-hashpjw/badge.svg?branch=master)](https://coveralls.io/github/you21979/node-hashpjw?branch=master)
 
 ## install
 
