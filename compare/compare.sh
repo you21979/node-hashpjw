@@ -7,5 +7,8 @@ VALUE="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 CLANG=`./cmd $TBL $VALUE`
 NODE=`node cmd.js $TBL $VALUE`
 
-echo $CLANG
-echo $NODE
+if [ $CLANG = $NODE ]; then
+  echo "OK"
+else
+  echo "NG"
+fi

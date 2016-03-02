@@ -1,5 +1,4 @@
 var hashpjw = require('..');
-
 var main = function(argc, argv){
     if(argc !== 3){
         return -1;
