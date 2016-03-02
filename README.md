@@ -6,7 +6,9 @@
 
 ## install
 
+```
 npm i hashpjw
+```
 
 ## simple
 
