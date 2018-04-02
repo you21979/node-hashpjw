@@ -3,7 +3,8 @@
 export const hashpjw = (key : any) : number => {
     return (key instanceof Buffer) ? hashpjw_buffer(key)
                             : (typeof key === "string") ? hashpjw_string(key)
-                            : hashpjw_number(key)
+                            : (typeof key === "number") ? hashpjw_number(key)
+                            : hashpjw_object(key)
 }
 
 export const hashpjw_buffer = (key : Buffer) : number => {
@@ -20,6 +21,10 @@ export const hashpjw_buffer = (key : Buffer) : number => {
         }
     }
     return h
+}
+
+export const hashpjw_object = (key : Object) : number => {
+    return hashpjw_string( key.toString() )
 }
 
 export const hashpjw_number = (key : number) : number => {
