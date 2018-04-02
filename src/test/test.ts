@@ -22,4 +22,14 @@ describe('hashpjw', () => {
         const n = hashpjw("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz");
         assert(n === 53942586);
     });
+    it('object', () => {
+        class Obj {
+            constructor(private id : string) {}
+            toString() : string{
+                return this.id
+            }
+        }
+        const n = hashpjw(new Obj("ABCDEFGHIJKLMN"));
+        assert(n === 178683902);
+    });
 });
