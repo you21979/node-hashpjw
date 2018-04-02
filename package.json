@@ -1,7 +1,7 @@
 {
   "name": "hashpjw",
   "version": "0.1.0",
-  "description": "the binary array",
+  "description": "p.j.weinberger hash function (a.k.a. elf hash function)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
